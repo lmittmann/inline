@@ -12,3 +12,8 @@ func If[T any](condition bool, then T, otherwise T) T {
 	}
 	return otherwise
 }
+
+// Ptr returns the pointer to the given value.
+func Ptr[T any](value T) *T {
+	return &value
+}
