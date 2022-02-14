@@ -1,5 +1,6 @@
 /*
-Package inline provides the trivial functionality of an inline if-else expression.
+Package inline provides the trivial functionality of inline if-else expressions
+and inline value-to-pointer conversions.
 */
 package inline
 
